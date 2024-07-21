@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dependency_injector_example"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+
+[tool.poetry.dependencies]
+python =  "3.10.*"
+fastapi = "0.110.0"
+uvicorn = "0.28.0"
+dependency-injector = "4.41.0"
+PyYAML = "6.0.1"
+
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dependency_injector_example",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceRoot}",
+                "PYTHONDONTWRITEBYTECODE": "1"
+ 
+            },
+            "args": [
+                "app.api.api_main:service_api",
+                "--reload",
+                "--workers",
+                "1",
+                "--port",
+                "8080"
+            ]
+        }
+    
+    ]
+}

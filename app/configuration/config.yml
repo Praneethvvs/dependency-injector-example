@@ -1,0 +1,6 @@
+LogConfig:
+    app_version: "v1.0"
+    log_prefix: "DEV"
+
+
+      
