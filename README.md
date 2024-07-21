@@ -51,7 +51,7 @@ python --version
 Navigate to your project directory and create a virtual environment at the root. Activate the virtual environment.
 
 ```sh
-cd path/to/your/project
+cd <path_to_your_project>
 python -m venv venv
 .\venv\Scripts\activate
 ```
