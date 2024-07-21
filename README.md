@@ -8,6 +8,9 @@ This guide will walk you through the steps to set up your project environment us
 - Git installed (optional for cloning repositories)
 - Visual Studio Code installed (for launching the app)
 
+## Note 
+You can follow the same steps on Linux. For pyenv installation on Linux, refer to the pyenv GitHub repository for the installation guide.
+
 ## Steps
 
 ### 1. Install pyenv-win
